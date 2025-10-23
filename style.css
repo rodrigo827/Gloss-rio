@@ -1,18 +1,61 @@
-body{
-    background-color: rgb(84, 4, 158);
-    color: rgb(0, 0, 0);
-
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-h2{
-    color: rgb(0, 0, 0);
+body {
+  background: #f4f6f8;
+  color: #333;
 }
 
-.texto-ingles{
-    font-style: italic;
-
+header {
+  background: #004aad;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
 }
 
-#nome-usuario{
-    font-weight: bold;
+header h1 {
+
+font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  color: #004aad;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  background: #004aad;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
 }
