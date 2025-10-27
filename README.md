@@ -1,2 +1,3 @@
-# Gloss-rio
-teste
+# Gloss-rio  
+ Um glossário é uma lista de palavras ou termos específicos de um determinado campo de conhecimento, acompanhados de suas definições ou explicações. Ele serve como um  dicionário especializado para ajudar a entender melhor o significado de palavras ou conceitos técnicos, muitas vezes usados em livros, artigos, ou áreas de estudo específicas, como ciência, medicina, direito, entre outras.
+ Este glossário contém as palavras: sistema, cobrado, depende, verificar, retorna, curtidas, atualizar, função, agrupar e necessário.
